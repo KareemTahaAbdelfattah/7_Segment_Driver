@@ -107,8 +107,12 @@ GPIO_HIGH 1
 ]
 "33
 [v _main main `(i  1 e 2 0 ]
-"72
+"74
 [v _Application_initialize Application_initialize `(v  1 e 1 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
 "4 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\fleq.c
 [v ___fleq __fleq `(b  1 e 0 0 ]
 "62 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\float.c
@@ -141,6 +145,16 @@ GPIO_HIGH 1
 [v _gpio_pin_read_logic gpio_pin_read_logic `(uc  1 e 1 0 ]
 "114
 [v _gpio_pin_toggle_logic gpio_pin_toggle_logic `(uc  1 e 1 0 ]
+"133
+[v _gpio_port_direction_init gpio_port_direction_init `(uc  1 e 1 0 ]
+"170
+[v _gpio_port_write_logic gpio_port_write_logic `(uc  1 e 1 0 ]
+"10 D:\Embedded System\GPIO Driver\Application.c
+[v _ret ret `uc  1 e 1 0 ]
+"11
+[v _sec sec `uc  1 e 1 0 ]
+[v _min min `uc  1 e 1 0 ]
+[v _hour hour `uc  1 e 1 0 ]
 "53 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4620.h
 [v _PORTA PORTA `VEuc  1 e 1 @3968 ]
 "190
@@ -180,10 +194,57 @@ GPIO_HIGH 1
 "33 D:\Embedded System\GPIO Driver\Application.c
 [v _main main `(i  1 e 2 0 ]
 {
-"69
+"36
+[v main@counter counter `uc  1 a 1 13 ]
+"71
 } 0
-"72
+"170 D:\Embedded System\GPIO Driver\MCAL_Layer/hal_gpio.c
+[v _gpio_port_write_logic gpio_port_write_logic `(uc  1 e 1 0 ]
+{
+[v gpio_port_write_logic@port port `CE2816  1 a 1 wreg ]
+[v gpio_port_write_logic@port port `CE2816  1 a 1 wreg ]
+[v gpio_port_write_logic@logic logic `uc  1 p 1 8 ]
+[v gpio_port_write_logic@port port `CE2816  1 a 1 11 ]
+"177
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"10
+[v ___awmod@sign sign `uc  1 a 1 5 ]
+[v ___awmod@counter counter `uc  1 a 1 4 ]
+"7
+[v ___awmod@dividend dividend `i  1 p 2 0 ]
+[v ___awmod@divisor divisor `i  1 p 2 2 ]
+"34
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 6 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 5 ]
+[v ___awdiv@counter counter `uc  1 a 1 4 ]
+"7
+[v ___awdiv@dividend dividend `i  1 p 2 0 ]
+[v ___awdiv@divisor divisor `i  1 p 2 2 ]
+"41
+} 0
+"74 D:\Embedded System\GPIO Driver\Application.c
 [v _Application_initialize Application_initialize `(v  1 e 1 0 ]
 {
 "77
+} 0
+"133 D:\Embedded System\GPIO Driver\MCAL_Layer/hal_gpio.c
+[v _gpio_port_direction_init gpio_port_direction_init `(uc  1 e 1 0 ]
+{
+[v gpio_port_direction_init@port port `CE2816  1 a 1 wreg ]
+"134
+[v gpio_port_direction_init@ret ret `uc  1 a 1 3 ]
+"133
+[v gpio_port_direction_init@port port `CE2816  1 a 1 wreg ]
+[v gpio_port_direction_init@direction_init direction_init `uc  1 p 1 0 ]
+[v gpio_port_direction_init@port port `CE2816  1 a 1 4 ]
+"140
 } 0

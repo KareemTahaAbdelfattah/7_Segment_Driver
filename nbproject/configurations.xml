@@ -21,6 +21,8 @@
           <itemPath>ECU_Layer/ecu_dc_motor/ecu_motor.h</itemPath>
           <itemPath>ECU_Layer/ecu_dc_motor/ecu_motor_cfg.h</itemPath>
         </logicalFolder>
+        <logicalFolder name="ecu_keypad" displayName="ecu_keypad" projectFiles="true">
+        </logicalFolder>
         <logicalFolder name="LED" displayName="LED" projectFiles="true">
           <itemPath>ECU_Layer/Ecu_led.h</itemPath>
           <itemPath>ECU_Layer/LED/ecu_led_cfg.h</itemPath>

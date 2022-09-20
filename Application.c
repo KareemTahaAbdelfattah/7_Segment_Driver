@@ -8,7 +8,7 @@
 #include "Application.h"
 
 STD_ReturnType ret = E_OK;
-uint8 sec = 25, min = 34, hour = 10;
+uint8 sec = 50, min = 10, hour = 7;
 
 segment_t segment_t1 = {
     .segment_pins[0].pin = GPIO_PIN0,
@@ -33,24 +33,27 @@ segment_t segment_t1 = {
 int main() { 
     Application_initialize();
     while(1){
-        
-        
-        
-        /*gpio_port_write_logic(PORTD_INDEX, 0x3E);
-        gpio_port_write_logic(PORTC_INDEX, (uint8)(sec/10));
-        gpio_port_write_logic(PORTD_INDEX, 0x3D);
-        gpio_port_write_logic(PORTC_INDEX, (uint8)(sec%10));
-        _delay(3330);
-        gpio_port_write_logic(PORTD_INDEX, 0x3B);
-        gpio_port_write_logic(PORTC_INDEX, (uint8)(min/10));
-        gpio_port_write_logic(PORTD_INDEX, 0x37);
-        gpio_port_write_logic(PORTC_INDEX, (uint8)(min%10));
-        _delay(3330);
-        gpio_port_write_logic(PORTD_INDEX, 0x2F);
-        gpio_port_write_logic(PORTC_INDEX, (uint8)(hour/10));
-        gpio_port_write_logic(PORTD_INDEX, 0x1F);
-        gpio_port_write_logic(PORTC_INDEX, (uint8)(hour%10));
-        _delay(3330);
+        for(uint8 counter = 0; counter <= 50; counter++){
+            gpio_port_write_logic(PORTD_INDEX, 0x01);
+            gpio_port_write_logic(PORTC_INDEX, (uint8)(hour/10));
+            _delay(3333);
+            gpio_port_write_logic(PORTD_INDEX, 0x02);
+            gpio_port_write_logic(PORTC_INDEX, (uint8)(hour%10));
+            _delay(3333);
+            gpio_port_write_logic(PORTD_INDEX, 0x04);
+            gpio_port_write_logic(PORTC_INDEX, (uint8)(min/10));
+            _delay(3333);
+            gpio_port_write_logic(PORTD_INDEX, 0x08);
+            gpio_port_write_logic(PORTC_INDEX, (uint8)(min%10));
+            _delay(3333);
+            gpio_port_write_logic(PORTD_INDEX, 0x10);
+            gpio_port_write_logic(PORTC_INDEX, (uint8)(sec/10));
+            _delay(33333);
+            gpio_port_write_logic(PORTD_INDEX, 0x20);
+            gpio_port_write_logic(PORTC_INDEX, (uint8)(sec%10));
+            _delay(3333);
+        }
+        sec++;
         if(sec == 60){
             sec = 0;
             min++;
@@ -63,15 +66,12 @@ int main() {
             hour = 0;
             hour++;
         }
-        sec++;*/
     }
     return (EXIT_SUCCESS);
 }
 
 /* initialize any pin with direction & logic */
 void Application_initialize(void){
-    /*ret = gpio_port_direction_init(PORTC_INDEX, GPIO_OUTPUT_DIRECTION);
-    ret = gpio_port_direction_init(PORTD_INDEX, 0xC0);*/
-    
-    
+    ret = gpio_port_direction_init(PORTC_INDEX, GPIO_OUTPUT_DIRECTION);
+    ret = gpio_port_direction_init(PORTD_INDEX, GPIO_OUTPUT_DIRECTION);
 }
