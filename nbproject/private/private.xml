@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/Embedded%20System/GPIO%20Driver/ECU_Layer/ecu_7_Segment/ecu_7_segment.h</file>
+            <file>file:/D:/Embedded%20System/GPIO%20Driver/MCAL_Layer/device_config.c</file>
+            <file>file:/D:/Embedded%20System/GPIO%20Driver/nbproject/Makefile-default.mk</file>
+            <file>file:/D:/Embedded%20System/GPIO%20Driver/Application.h</file>
+            <file>file:/D:/Embedded%20System/GPIO%20Driver/ECU_Layer/RELAY/ecu_relay.h</file>
+            <file>file:/D:/Embedded%20System/GPIO%20Driver/ECU_Layer/ecu_7_Segment/ecu_7_segment.c</file>
+            <file>file:/D:/Embedded%20System/GPIO%20Driver/Application.c</file>
+            <file>file:/D:/Embedded%20System/GPIO%20Driver/ECU_Layer/RELAY/ecu_relay.c</file>
+            <file>file:/D:/Embedded%20System/GPIO%20Driver/MCAL_Layer/device_config.h</file>
+            <file>file:/D:/Embedded%20System/GPIO%20Driver/MCAL_Layer/hal_gpio.h</file>
+            <file>file:/D:/Embedded%20System/GPIO%20Driver/ECU_Layer/ecu_dc_motor/ecu_motor.c</file>
+            <file>file:/D:/Embedded%20System/GPIO%20Driver/nbproject/Makefile-impl.mk</file>
+            <file>file:/D:/Embedded%20System/GPIO%20Driver/MCAL_Layer/hal_gpio.c</file>
+            <file>file:/D:/Embedded%20System/GPIO%20Driver/ECU_Layer/ecu_dc_motor/ecu_motor.h</file>
+            <file>file:/D:/Embedded%20System/GPIO%20Driver/MCAL_Layer/GPIO/hal_gpio_cfg_inter.h</file>
+            <file>file:/D:/Embedded%20System/GPIO%20Driver/ECU_Layer/Ecu_led.h</file>
+            <file>file:/D:/Embedded%20System/GPIO%20Driver/ECU_Layer/LED/ecu_led_cfg.h</file>
+            <file>file:/D:/Embedded%20System/GPIO%20Driver/ECU_Layer/Ecu_led.c</file>
+            <file>file:/D:/Embedded%20System/GPIO%20Driver/ECU_Layer/ecu_button.h</file>
+            <file>file:/D:/Embedded%20System/GPIO%20Driver/ECU_Layer/RELAY/ecu_relay_cfg.h</file>
+            <file>file:/D:/Embedded%20System/GPIO%20Driver/ECU_Layer/ecu_button.c</file>
+            <file>file:/D:/Embedded%20System/GPIO%20Driver/ECU_Layer/ecu_7_Segment/ecu_7_segment_cfg.h</file>
+            <file>file:/D:/Embedded%20System/GPIO%20Driver/MCAL_Layer/std_libraries.h</file>
+            <file>file:/D:/Embedded%20System/GPIO%20Driver/MCAL_Layer/compiler.h</file>
+            <file>file:/D:/Embedded%20System/GPIO%20Driver/ECU_Layer/ecu_dc_motor/ecu_motor_cfg.h</file>
+            <file>file:/D:/Embedded%20System/GPIO%20Driver/MCAL_Layer/std_types.h</file>
+            <file>file:/D:/Embedded%20System/GPIO%20Driver/ECU_Layer/ecu_button_cfg.h</file>
+        </group>
+    </open-files>
+</project-private>

@@ -1,0 +1,43 @@
+### HEXMate logfile and output summary ###
+
+### Command-line arguments ###
+ dist/default/production\GPIO_Driver.production.hex
+ -Odist/default/production\GPIO_Driver.production.hex
+ -logfile=dist/default/production\GPIO_Driver.production.hxl
+ -addressing=1
+ -break=300000
+
+### Memory Usage ###
+ Intel Hex-file ranges:
+  0h - 3h		(dist/default/production\GPIO_Driver.production.hex)
+  FF94h - FFA1h		(dist/default/production\GPIO_Driver.production.hex)
+  FFA3h - FFFFh		(dist/default/production\GPIO_Driver.production.hex)
+  200000h - 200007h		(dist/default/production\GPIO_Driver.production.hex)
+  300000h - 30000Dh		(dist/default/production\GPIO_Driver.production.hex)
+ Unused ranges:
+  4h - FF93h
+  FFA2h - FFA2h
+  10000h - 1FFFFFh
+  200008h - 2FFFFFh
+
+### Hex Memory Map ###
+ Legend:
+  -- = Unused memory
+  H1 = Intel Hex-file         (dist/default/production\GPIO_Driver.production.hex)
+----------------------------------------------------------
+         | 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+----------------------------------------------------------
+00000000 | H1 H1 H1 H1 -- -- -- -- -- -- -- -- -- -- -- --
+----------------------------------------------------------
+0000FF90 | -- -- -- -- H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
+0000FFA0 | H1 H1 -- H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
+0000FFB0 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
+0000FFC0 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
+0000FFD0 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
+0000FFE0 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
+0000FFF0 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
+----------------------------------------------------------
+00200000 | H1 H1 H1 H1 H1 H1 H1 H1 -- -- -- -- -- -- -- --
+----------------------------------------------------------
+00300000 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 -- --
+00300010 | --
